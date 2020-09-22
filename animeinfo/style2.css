@@ -1,0 +1,17 @@
+#animeinfo-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-bottom: 20px;
+}
+span{
+	color:white;
+}
+.animeinfo{
+	color:#00A651;
+}
+#animeinfo-name{
+	font-size: 1.2rem;
+	padding-bottom: 10px;
+}

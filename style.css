@@ -1,0 +1,180 @@
+body{
+	background-color: #000;
+	font-family: myFirstFont, MyFont_IE, Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	color: #ffc119;
+	
+
+}
+#sin{
+	padding-left:775px;
+
+}
+#sin a:hover{
+	text-decoration: underline;
+	color:#1a1a1a;
+}
+.head{
+	margin: 0 auto;
+	padding: 0;
+	width :992px;
+	background-color: #1a1a1a;
+}
+
+.navbar{
+	background-color: #1a1a1a; 
+}
+.navbar-brand{
+	margin:0;
+	padding: 0;
+	padding-left:10px;
+	float: left; 
+}
+.nav-link{
+	font-size: 0.9rem;
+	color: white;
+}
+.nav-item{
+	padding:15px;
+}
+
+.nav-link:hover{
+	text-decoration:underline;
+	color: #ffc119;
+
+}
+.navbar-toggler-icon{
+	background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
+
+}
+
+input[type="text"], textarea {
+
+	border:1px solid #b3b3b3;
+	background-color:black;
+	color: #ffc119;
+	width:175px;
+	height:35px;
+	padding: 15px;
+	font-size: 0.8rem;
+}
+
+#S2  {
+	padding-right: 20px;
+	padding-left: 40px;
+	}
+
+.carousel-item{
+    height: 300px;
+} 
+
+.kard{
+	box-sizing: border-box;
+	margin:0px;
+	padding: 10px;
+	background-color: #1a1a1a;
+}
+.card{
+	background-color: black;
+}
+.card-body{
+	text-align: center;
+}
+.card-body>a{
+	font-size: 0.8rem;
+	color: #ffc119;
+	}
+.card-body>a:hover{
+	text-decoration:none;
+	color: white;
+
+}
+.tag{
+	background-color: #ffc119;
+	color: black;
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding: 15px;
+
+}
+
+
+#page a{
+	padding:5px;
+	margin-left: 10px;
+	color:black;
+}
+
+#page a:hover{
+	text-decoration:none;
+	color:white;
+	background-color: green;
+}
+#page{
+	text-align: center;
+	background-color: #ffc119;
+	padding:20px;
+	font-size: 1.1rem;
+}
+#container-animelist{
+	box-sizing: border-box;
+	padding-bottom: 20px;
+}
+#animelist div{
+	padding-top: 7px;
+	padding-left: 25px;
+}
+#animelist div a{
+	text-decoration:none;
+	color:white;
+}
+
+#animelist div a:hover{
+	text-decoration:none;
+	color:#ffc119;
+}
+footer{
+
+	padding:40px;
+	text-align: center;
+}
+
+
+	@media (max-width: 992px)
+	{
+		#S
+		{
+			display:none;
+		}
+		
+		.head
+		{
+			display: none;
+		}
+		.navbar
+		{
+			background-color: #000; 
+		}
+		input[type="text"], textarea{
+			background-color: #1a1a1a;
+		}
+
+	}
+	@media (min-width: 992px)
+	{
+		#S2
+		{
+			display: none;
+		}
+		.head2
+		{
+			display: none;
+		}
+		body{
+			background-image: url('img/bg2.jpg');
+		}
+	}
+
+	
